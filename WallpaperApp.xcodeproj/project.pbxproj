@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43BC9F7A1D879AD40013855C /* Wallpaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BC9F791D879AD40013855C /* Wallpaper.swift */; };
+		43BC9F7C1D87A26E0013855C /* richard-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 43BC9F7B1D87A26E0013855C /* richard-logo.png */; };
+		43BC9F7E1D87A6400013855C /* ic_menu_bars.png in Resources */ = {isa = PBXBuildFile; fileRef = 43BC9F7D1D87A6400013855C /* ic_menu_bars.png */; };
+		43EE18CB1D8748E7000C8CAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EE18CA1D8748E7000C8CAB /* AppDelegate.swift */; };
+		43EE18CD1D8748E7000C8CAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EE18CC1D8748E7000C8CAB /* ViewController.swift */; };
+		43EE18D01D8748E7000C8CAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43EE18CE1D8748E7000C8CAB /* Main.storyboard */; };
+		43EE18D21D8748E7000C8CAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43EE18D11D8748E7000C8CAB /* Assets.xcassets */; };
+		43EE18D51D8748E7000C8CAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43EE18D31D8748E7000C8CAB /* LaunchScreen.storyboard */; };
+		43EE18DD1D874D82000C8CAB /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EE18DC1D874D82000C8CAB /* SwiftyJSON.swift */; };
+		43EE18DF1D875923000C8CAB /* RedditTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EE18DE1D875923000C8CAB /* RedditTableTableViewController.swift */; };
+		43EE18E51D8772C6000C8CAB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EE18E41D8772C6000C8CAB /* DetailViewController.swift */; };
+		43EE18E81D8773FD000C8CAB /* Wallpaper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43EE18E61D8773FD000C8CAB /* Wallpaper.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43BC9F791D879AD40013855C /* Wallpaper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wallpaper.swift; sourceTree = "<group>"; };
+		43BC9F7B1D87A26E0013855C /* richard-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "richard-logo.png"; sourceTree = "<group>"; };
+		43BC9F7D1D87A6400013855C /* ic_menu_bars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_bars.png; sourceTree = "<group>"; };
+		43EE18C71D8748E7000C8CAB /* WallpaperApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallpaperApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43EE18CA1D8748E7000C8CAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43EE18CC1D8748E7000C8CAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43EE18CF1D8748E7000C8CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43EE18D11D8748E7000C8CAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43EE18D41D8748E7000C8CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43EE18D61D8748E7000C8CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43EE18DC1D874D82000C8CAB /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		43EE18DE1D875923000C8CAB /* RedditTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedditTableTableViewController.swift; sourceTree = "<group>"; };
+		43EE18E41D8772C6000C8CAB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		43EE18E71D8773FD000C8CAB /* Wallpaper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wallpaper.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43EE18C41D8748E7000C8CAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43EE18BE1D8748E7000C8CAB = {
+			isa = PBXGroup;
+			children = (
+				43EE18C91D8748E7000C8CAB /* WallpaperApp */,
+				43EE18C81D8748E7000C8CAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43EE18C81D8748E7000C8CAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43EE18C71D8748E7000C8CAB /* WallpaperApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43EE18C91D8748E7000C8CAB /* WallpaperApp */ = {
+			isa = PBXGroup;
+			children = (
+				43EE18CA1D8748E7000C8CAB /* AppDelegate.swift */,
+				43EE18CC1D8748E7000C8CAB /* ViewController.swift */,
+				43EE18CE1D8748E7000C8CAB /* Main.storyboard */,
+				43EE18D11D8748E7000C8CAB /* Assets.xcassets */,
+				43EE18D31D8748E7000C8CAB /* LaunchScreen.storyboard */,
+				43EE18D61D8748E7000C8CAB /* Info.plist */,
+				43EE18DC1D874D82000C8CAB /* SwiftyJSON.swift */,
+				43EE18DE1D875923000C8CAB /* RedditTableTableViewController.swift */,
+				43EE18E41D8772C6000C8CAB /* DetailViewController.swift */,
+				43EE18E61D8773FD000C8CAB /* Wallpaper.xcdatamodeld */,
+				43BC9F791D879AD40013855C /* Wallpaper.swift */,
+				43BC9F7B1D87A26E0013855C /* richard-logo.png */,
+				43BC9F7D1D87A6400013855C /* ic_menu_bars.png */,
+			);
+			path = WallpaperApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43EE18C61D8748E7000C8CAB /* WallpaperApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43EE18D91D8748E7000C8CAB /* Build configuration list for PBXNativeTarget "WallpaperApp" */;
+			buildPhases = (
+				43EE18C31D8748E7000C8CAB /* Sources */,
+				43EE18C41D8748E7000C8CAB /* Frameworks */,
+				43EE18C51D8748E7000C8CAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WallpaperApp;
+			productName = WallpaperApp;
+			productReference = 43EE18C71D8748E7000C8CAB /* WallpaperApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43EE18BF1D8748E7000C8CAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jack Richard";
+				TargetAttributes = {
+					43EE18C61D8748E7000C8CAB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 43EE18C21D8748E7000C8CAB /* Build configuration list for PBXProject "WallpaperApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43EE18BE1D8748E7000C8CAB;
+			productRefGroup = 43EE18C81D8748E7000C8CAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43EE18C61D8748E7000C8CAB /* WallpaperApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43EE18C51D8748E7000C8CAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43EE18D51D8748E7000C8CAB /* LaunchScreen.storyboard in Resources */,
+				43EE18D21D8748E7000C8CAB /* Assets.xcassets in Resources */,
+				43BC9F7E1D87A6400013855C /* ic_menu_bars.png in Resources */,
+				43BC9F7C1D87A26E0013855C /* richard-logo.png in Resources */,
+				43EE18D01D8748E7000C8CAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43EE18C31D8748E7000C8CAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43EE18DD1D874D82000C8CAB /* SwiftyJSON.swift in Sources */,
+				43EE18CD1D8748E7000C8CAB /* ViewController.swift in Sources */,
+				43EE18E51D8772C6000C8CAB /* DetailViewController.swift in Sources */,
+				43EE18DF1D875923000C8CAB /* RedditTableTableViewController.swift in Sources */,
+				43EE18E81D8773FD000C8CAB /* Wallpaper.xcdatamodeld in Sources */,
+				43EE18CB1D8748E7000C8CAB /* AppDelegate.swift in Sources */,
+				43BC9F7A1D879AD40013855C /* Wallpaper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43EE18CE1D8748E7000C8CAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43EE18CF1D8748E7000C8CAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43EE18D31D8748E7000C8CAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43EE18D41D8748E7000C8CAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43EE18D71D8748E7000C8CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43EE18D81D8748E7000C8CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43EE18DA1D8748E7000C8CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = WallpaperApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rosehulman.richarj.WallpaperApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43EE18DB1D8748E7000C8CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = WallpaperApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.rosehulman.richarj.WallpaperApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43EE18C21D8748E7000C8CAB /* Build configuration list for PBXProject "WallpaperApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43EE18D71D8748E7000C8CAB /* Debug */,
+				43EE18D81D8748E7000C8CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43EE18D91D8748E7000C8CAB /* Build configuration list for PBXNativeTarget "WallpaperApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43EE18DA1D8748E7000C8CAB /* Debug */,
+				43EE18DB1D8748E7000C8CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		43EE18E61D8773FD000C8CAB /* Wallpaper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				43EE18E71D8773FD000C8CAB /* Wallpaper.xcdatamodel */,
+			);
+			currentVersion = 43EE18E71D8773FD000C8CAB /* Wallpaper.xcdatamodel */;
+			path = Wallpaper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 43EE18BF1D8748E7000C8CAB /* Project object */;
+}
